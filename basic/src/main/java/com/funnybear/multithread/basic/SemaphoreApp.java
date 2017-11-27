@@ -40,6 +40,7 @@ public class SemaphoreApp {
 			});
 		}
 
+		executorService.shutdown();
 	}
 
 }
